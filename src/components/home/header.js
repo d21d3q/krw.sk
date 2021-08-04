@@ -20,15 +20,15 @@ const Header = () => {
         </div>
         <div className="flex-none m-3">
           <div>
-            <FontAwesomeIcon className="mr-2" icon={faWhatsapp}/> 
+            <FontAwesomeIcon size="lg" className="mr-2" icon={faWhatsapp}/> 
             <Obfuscate tel="+48 691773622"/>
           </div>
           <div>
-            <FontAwesomeIcon className="mr-2" icon={faEnvelope}/> 
+            <FontAwesomeIcon size="lg" className="mr-2" icon={faEnvelope}/> 
             <Obfuscate tel="zdzislaw@krw.sk"/>
           </div>
           <div>
-            <FontAwesomeIcon className="mr-2" icon={faCompass}/> 
+            <FontAwesomeIcon size="lg" className="mr-2" icon={faCompass}/> 
             Wrocław, Poland
           </div>
         </div>
